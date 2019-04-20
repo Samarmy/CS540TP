@@ -1,0 +1,1 @@
+Block6 should be on top of block4. Block3 needs to be side by side with block2. Block1 is red. Block5 above Block6.
