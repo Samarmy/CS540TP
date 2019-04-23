@@ -1,0 +1,1 @@
+Must have a wildcard1 that is red. Block3 will be below block2. Block4 will be on Block5. Wildcard2 will be next to block6.
