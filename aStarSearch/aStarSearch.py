@@ -200,8 +200,9 @@ if __name__ == '__main__':
         start=sys.argv[1]
         goal=sys.argv[2]
     except IndexError:
-            start='tests/start.txt'
-            goal='tests/goal.txt'
+            print('unable to parse input arguments')
+            #start='tests/start4.txt'
+            #goal='tests/goal4.txt'
 
     startState=readFile(start)
     goalState=readFile(goal)
@@ -218,14 +219,14 @@ if __name__ == '__main__':
 
     startBlockList.sort(key=lambda x: x.Id)
     goalBlockList.sort(key=lambda x: x.Id)
-    print("Start State:")
-    printBlockList(startBlockList)
-    print("Goal State:")
-    printBlockList(goalBlockList)
-    print("\nGoal relationships:")
+    #print("Start State:")
+    #printBlockList(startBlockList)
+    #print("Goal State:")
+    #printBlockList(goalBlockList)
+    #print("\nGoal relationships:")
 
-    for i in goalProperties:
-        print(i)
+    #for i in goalProperties:
+        #print(i)
 
 
     count=0
@@ -234,9 +235,9 @@ if __name__ == '__main__':
             count+=1
 
     minCommandLength=1000
-    #print("\nSearching...\n")
+    print("\nSearching...\n")
     for x in range(10):
-        print('Search #'+str(x+1))
+        #print('Search #'+str(x+1))
         commands=None
         if(count>7):
             action_blocks=get_actions_blocks2(startBlockList, goalBlockList, goalProperties,wildcards)
@@ -253,14 +254,14 @@ if __name__ == '__main__':
         #printBlockList(endBlockList)
         #sys.exit()
 
-        print("Coordinate search complete. ")
+        #print("Coordinate search complete. ")
         action_blocks=get_actions_blocks(startBlockList, goalBlockList, goalProperties,wildcards,relationship_actions=True)
         relationship_commands=None
         while(relationship_commands==None):
             wildcards=defineWildcards(startBlockList, goalProperties)
             relationship_commands,endBlockList2=aStarSearch(endBlockList,goalBlockList, goalProperties,wildcards,action_blocks,heuristic_relationships, compare_relationships,relationship_actions=True)
-            if(relationship_commands==None):
-                print("Restarting...")
+            #if(relationship_commands==None):
+                #print("Restarting...")
         commands.extend(relationship_commands[1:])
         
         if(len(commands)<minCommandLength):

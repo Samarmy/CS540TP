@@ -1,0 +1,2 @@
+(has block1 location 4 4 2)
+(is block2 block1 side-by-side)

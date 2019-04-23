@@ -1,0 +1,3 @@
+(has wildcard1 location 4 2 0)
+(is wildcard2 wildcard1 on-top-of)
+(is block1 wildcard2 on-top-of)

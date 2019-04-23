@@ -1,0 +1,6 @@
+(has block1 color red)
+(has block2 location 8 3 1)
+(has block2 color green)
+(has block1 location 8 3 0)
+(has block3 color blue)
+(has block3 location 8 3 2)

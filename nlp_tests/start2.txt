@@ -1,0 +1,1 @@
+Block1 is color blue.  Block1 is at location 2 3 0.  Block2 is color red.  Block2 is at location 2 3 1.  Block3 is color yellow.  Block3 is at location (5, 1, 0).  Block4 is color green.  Block4 location is 8 7 0.  Block5 is color cyan.  Block5 is at location 8 7 1.  Block6 color is purple.  Block6 location is (1, 5, 0).  Block7 is color orange.  Block7 location is 4 6 0.

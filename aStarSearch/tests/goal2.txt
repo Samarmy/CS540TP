@@ -1,0 +1,8 @@
+(has block2 location 1 2 0)
+(has block1 location 1 1 0)
+(has block3 location 2 2 0)
+(has block4 location 2 2 1)
+(has block5 location 5 8 0)
+(has block6 location 2 7 0)
+(has block7 location 1 4 0)
+(has block8 location 1 2 1)
