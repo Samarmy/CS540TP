@@ -1,1 +1,1 @@
-Wildcard1 has location 4 2 0. Wildcard2 is on top of wildcard1.  Block1 is on top of wildcard2.
+Block 1 is next to block 2 and block3. Wildcard 1 has location 4 2 0. Wildcard2 is next to wildcard1. Block 23 is next to block 21. Put block 21 at 3 5 0.
