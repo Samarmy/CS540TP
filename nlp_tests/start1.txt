@@ -1,1 +1,1 @@
-Block1 has color red.  Block2 has location 8 3 1.  Block3  has color green.  Block1 location is 8 3 0.  Block3 color is blue.  Block3 location is 8 3 2.
+Block 2 has location 8 3 1.  Block 1 has color red.  Block 3  has color green.  Block1 location is 8 3 0.  Block 3 color is blue.  Block 3 location is 8 3 2.
