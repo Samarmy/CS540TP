@@ -1,12 +1,13 @@
 import sys
 import os
 from nltk.parse import stanford
-dir_path = '<put your directory path here>'
+dir_path = '~'
 
 os.environ['STANFORD_PARSER'] = dir_path + '/stanford-parser-full-2018-10-17'
 os.environ['STANFORD_MODELS'] = dir_path + '/stanford-parser-full-2018-10-17'
+os.environ['CLASSPATH'] =  dir_path + '/stanford-parser-full-2018-10-17/*'
 
-parser = stanford.StanfordParser(model_path= dir_path + '/englishPCFG.ser.gz')
+parser = stanford.StanfordParser(model_path= dir_path + '~/projects/540_teamred/CS540/englishPCFG.ser.gz')
 input = ["Hello my name is Sam."]
 
 if(len(sys.argv) > 1): input = []

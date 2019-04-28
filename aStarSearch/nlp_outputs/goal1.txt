@@ -1,3 +1,6 @@
+(is block1 block2 side-by-side)
+(is block1 block3 side-by-side)
 (has wildcard1 location 4 2 0)
-(is wildcard2 wildcard1 on-top-of)
-(is block1 wildcard2 on-top-of)
+(is wildcard2 wildcard1 side-by-side)
+(is block23 block21 side-by-side)
+(has block21 location 3 5 0)
