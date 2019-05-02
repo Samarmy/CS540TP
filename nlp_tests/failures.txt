@@ -1,0 +1,1 @@
+Block 6 is located at 4, 4, 3.  Furthermore, if I make longer sentences, will block 8 be on top of block9?  Block 21 has x equal to 9, y equal to 3 and z equal to 0.
